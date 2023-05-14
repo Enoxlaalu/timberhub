@@ -1,0 +1,53 @@
+@import 'src/variables.scss';
+
+.container {
+    svg[data-name='dropdownArrow'] {
+        transition: transform 0.3s;
+    }
+
+    &.opened {
+        svg[data-name='dropdownArrow'] {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+.dropdown {
+    position: fixed;
+    box-shadow: 1px 2px 12px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+    max-height: 250px;
+    padding: 10px;
+    background-color: $white;
+    overflow: auto;
+
+    label,
+    li {
+        line-height: 30px;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        border-radius: 4px;
+        padding: 10px;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+}
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+
+    &.opened {
+        opacity: 1;
+        pointer-events: auto;
+    }
+}

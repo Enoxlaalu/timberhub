@@ -1,0 +1,26 @@
+@import 'src/variables.scss';
+
+.addSet {
+    display: flex;
+    align-items: center;
+    color: $green;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    cursor: pointer;
+
+    svg {
+        margin-right: 4px;
+    }
+}
+
+.dataWrapper {
+    grid-column: 1/3;
+    display: grid;
+    grid-gap: 24px;
+
+    @include tablet {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-column: 2;
+    }
+}

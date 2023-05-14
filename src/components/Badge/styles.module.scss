@@ -1,0 +1,15 @@
+@import "src/variables.scss";
+
+.badge {
+    background: #f4f4f6;
+    border-radius: 5px;
+    padding: 4px 9px;
+    font-size: 12px;
+    line-height: 15px;
+    color: $heading;
+}
+
+.index {
+    color: rgb($text, 30%);
+    margin-right: 6px;
+}

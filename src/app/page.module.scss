@@ -1,0 +1,29 @@
+@import 'src/variables.scss';
+
+.page {
+    display: grid;
+    align-content: start;
+    overflow: hidden;
+    padding: 20px 20px 20px 34px;
+}
+
+.pageHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 55px;
+
+    @include tablet {
+        font-size: 33px;
+    }
+}
+
+.productsSearch {
+    margin: 35px 0 28px;
+}

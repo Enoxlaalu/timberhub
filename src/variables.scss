@@ -1,0 +1,16 @@
+// colors
+
+$white: #fff;
+$green: #23d899;
+$darkGrey: #939393;
+$text: #707786;
+$border: #d5d5d5;
+$heading: #1f2937;
+
+// media queries
+
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}

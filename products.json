@@ -1,0 +1,129 @@
+{
+  "rows": [
+    {
+      "id": 10013432,
+      "created": 1660665689,
+      "usage": "",
+      "species": "Spruce",
+      "drying_method": "KD",
+      "grade": "Nordic Blue Book",
+      "treatment": null,
+      "dimensions": [
+        {
+          "thickness": 40,
+          "width": 50,
+          "length": 1300
+        },
+        {
+          "thickness": 50,
+          "width": 150,
+          "length": 2000
+        },
+        {
+          "thickness": 40,
+          "width": 50,
+          "length": 1300
+        },
+        {
+          "thickness": 50,
+          "width": 150,
+          "length": 2000
+        },
+        {
+          "thickness": 50,
+          "width": 150,
+          "length": 2000
+        }
+      ]
+    },
+    {
+      "id": 10013433,
+      "created": 1660665689,
+      "usage": "Pallet/Packaging",
+      "species": "Apple Tree",
+      "drying_method": "Fresh",
+      "grade": "Nordic Blue Book",
+      "treatment": null,
+      "dimensions": [
+        {
+          "thickness": 40,
+          "width": 50,
+          "length": 1300
+        },
+        {
+          "thickness": 50,
+          "width": 150,
+          "length": 2000
+        },
+        {
+          "thickness": 50,
+          "width": 150,
+          "length": 2000
+        }
+      ]
+    },
+    {
+      "dimensions": [
+        {
+          "thickness": "1000",
+          "width": "2000",
+          "length": "3000"
+        }
+      ],
+      "usage": "Pallet/Packaging",
+      "species": "Spruce",
+      "drying_method": "KD",
+      "grade": "Nordic Blue",
+      "treatment": "Treatment 1",
+      "created": 1684046975008,
+      "id": 10013434
+    },
+    {
+      "dimensions": [
+        {
+          "thickness": "900",
+          "width": "800",
+          "length": "700"
+        },
+        {
+          "thickness": "600",
+          "width": "500",
+          "length": "400"
+        },
+        {
+          "thickness": "300",
+          "width": "200",
+          "length": "100"
+        },
+        {
+          "thickness": "435",
+          "width": "569",
+          "length": "459"
+        }
+      ],
+      "usage": "Pallet/Packaging",
+      "species": "Apple Tree",
+      "drying_method": "Fresh",
+      "grade": "Western Green",
+      "treatment": "Treatment 2",
+      "created": 1684047016688,
+      "id": 10013435
+    },
+    {
+      "dimensions": [
+        {
+          "thickness": "450",
+          "width": "600",
+          "length": "200"
+        }
+      ],
+      "usage": "Pallet/Packaging",
+      "species": "Pine",
+      "drying_method": "Fresh",
+      "grade": "Southern Brown",
+      "treatment": "Treatment 2",
+      "created": 1684047146681,
+      "id": 10013436
+    }
+  ]
+}

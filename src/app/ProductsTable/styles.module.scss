@@ -1,0 +1,40 @@
+@import 'src/variables.scss';
+
+.productCell {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 22px;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 6px 5px;
+}
+
+.name {
+    grid-column: 1/3;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.productId {
+    font-size: 11px;
+    line-height: 13px;
+    color: $green;
+}
+
+.date {
+    font-size: 11px;
+    line-height: 13px;
+    color: $text;
+}
+
+.dimensionsCell {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 13px;
+    justify-content: start;
+}

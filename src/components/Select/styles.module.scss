@@ -1,0 +1,52 @@
+@import 'src/variables.scss';
+
+.label {
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.errorLabel {
+    color: red;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: $white;
+    border: 1px solid $border;
+    border-radius: 5px;
+    padding: 8px 14px;
+    cursor: pointer;
+
+    label {
+        font-size: 14px;
+        line-height: 23px;
+        color: $darkGrey;
+
+        &.value {
+            color: #000;
+        }
+    }
+
+    svg {
+        color: $green;
+    }
+}
+
+.item {
+    &:hover {
+        background-color: rgb($green, 10%);
+    }
+}
+
+.description {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 18px;
+    color: $darkGrey;
+    margin-top: 4px;
+}

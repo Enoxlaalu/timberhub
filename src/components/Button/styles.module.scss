@@ -1,0 +1,26 @@
+@import "src/variables.scss";
+
+.button {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    border: 2px solid $green;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: $white;
+
+    svg {
+        margin-top: 2px;
+    }
+}
+
+.primary {
+    background-color: $green;
+}
+
+.close {
+    border-color: transparent;
+}

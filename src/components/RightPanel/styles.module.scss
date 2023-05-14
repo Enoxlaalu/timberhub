@@ -1,0 +1,64 @@
+@import "src/variables";
+
+.panelWrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(117 116 116 / 15%);
+    z-index: 11;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.rightPanel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -600px;
+    display: grid;
+    align-content: start;
+    grid-template-rows: auto 1fr auto;
+    background-color: $white;
+    z-index: 12;
+    transition: right 0.3s ease-in-out, min-width 0.3s ease-in-out;
+    min-width: 0;
+    overflow: auto;
+    padding: 20px 24px;
+}
+
+.rightPanelOpened {
+    opacity: 1;
+    pointer-events: auto;
+
+    .rightPanel {
+        right: 0;
+        min-width: 100vw;
+
+        @include tablet {
+            min-width: 67.5%;
+        }
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+    h3 {
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 55px;
+    }
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
