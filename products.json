@@ -124,6 +124,22 @@
       "treatment": "Treatment 2",
       "created": 1684047146681,
       "id": 10013436
+    },
+    {
+      "dimensions": [
+        {
+          "thickness": "2000",
+          "width": "4000",
+          "length": "3000"
+        }
+      ],
+      "usage": "Pallet/Packaging",
+      "grade": "Southern Brown",
+      "species": "Pine",
+      "drying_method": "Fresh",
+      "treatment": "Treatment 2",
+      "created": 1684229650770,
+      "id": 10013437
     }
   ]
 }

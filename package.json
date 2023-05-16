@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "server": "json-server --watch products.json --port 3001",
+    "dev": "next dev --port 3020",
+    "server": "json-server --watch products.json --port 3030",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

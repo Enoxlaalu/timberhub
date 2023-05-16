@@ -3,7 +3,7 @@ import { IProduct } from '@/app/types'
 export const getProducts = async (searchParams) => {
     const search = searchParams.search ? `&q=${searchParams.search}` : ''
     const res = await fetch(
-        `http://localhost:3001/rows?_sort=id&_order=desc${search}`,
+        `http://localhost:3030/rows?_sort=id&_order=desc${search}`,
         {
             cache: 'no-store',
         }
@@ -19,7 +19,7 @@ export const addProduct = async (product: IProduct) => {
         dimensions: product.dimensions.filter((d) => Object.keys(d).length),
     }
 
-    await fetch('http://localhost:3001/rows', {
+    await fetch('http://localhost:3030/rows', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
